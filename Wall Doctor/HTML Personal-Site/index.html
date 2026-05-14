@@ -1,0 +1,456 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Wall Doctor Design — Architecture & Design</title>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;1,300;1,400&family=Montserrat:wght@300;400;500;600&display=swap"
+        rel="stylesheet" />
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+
+    <!-- NAV -->
+    <nav id="navbar">
+        <a href="#" class="nav-logo">Wall Doctor<span>Design</span></a>
+        <ul class="nav-links">
+            <li><a href="#about">About</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="#team">Team</a></li>
+            <li><a href="#testimonials">Testimonials</a></li>
+        </ul>
+        <a href="#contact" class="nav-cta">Get In Touch</a>
+        <button class="hamburger" id="hamburger" aria-label="Menu">
+            <span></span><span></span><span></span>
+        </button>
+    </nav>
+
+    <!-- HERO -->
+    <section id="hero">
+        <div class="hero-bg"></div>
+        <div class="hero-content">
+            <p class="hero-eyebrow">Architecture &amp; Interior Design</p>
+            <h1 class="hero-title">
+                Wall Doctor<br>Designs & <em>Interior</em>
+            </h1>
+            <!-- HERO 
+      <h1 class="hero-title">
+        Where Space<br>Becomes <em>Art</em>
+      </h1>
+      -->
+            <p class="hero-sub">We craft architectural experiences that transcend function — merging timeless elegance
+                with the living poetry of space.</p>
+            <div class="hero-actions">
+                <a href="#portfolio" class="btn-primary">View Our Work</a>
+                <a href="#about" class="btn-ghost">Discover Our Story &#8594;</a>
+            </div>
+        </div>
+        <div class="hero-scroll">
+            <div class="scroll-line"></div>
+            <span>Scroll</span>
+        </div>
+    </section>
+
+    <!-- ABOUT -->
+    <section id="about">
+        <div class="about-grid">
+            <div class="about-image-wrap reveal">
+                <img src="images/IMG-2.jpg" alt="Our studio" />
+                <div class="about-badge">
+                    <strong>6</strong>
+                    <span>Years of Excellence</span>
+                </div>
+            </div>
+            <div class="about-text reveal reveal-delay-2">
+                <p class="section-label">About Us</p>
+                <h2 class="section-title">Designing <em>Legacies</em><br>Built to Last</h2>
+                <div class="divider"></div>
+                <p>Wall Doctor Design was founded on a singular conviction: that great architecture does not merely
+                    shelter — it elevates the human spirit. From our atelier in the heart of the city, we bring together
+                    master architects, visionary designers, and meticulous craftspeople.</p>
+                <p>Each project is a dialogue between client and creator, between the weight of history and the
+                    lightness of tomorrow. We listen, we envision, and we build with precision and intention.</p>
+                <div class="about-stats">
+                    <div class="stat-item">
+                        <strong>240+</strong>
+                        <span>Projects Delivered</span>
+                    </div>
+                    <div class="stat-item">
+                        <strong>5</strong>
+                        <span>Design Awards</span>
+                    </div>
+                    <div class="stat-item">
+                        <strong>82%</strong>
+                        <span>Repeat Clients</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SERVICES -->
+    <section id="services">
+        <p class="section-label reveal">Our Services</p>
+        <h2 class="section-title reveal">A Full Spectrum<br>of <em>Design Excellence</em></h2>
+        <p class="services-intro reveal">From initial concept to final keystroke, our services are crafted to serve
+            every dimension of your architectural vision.</p>
+        <div class="services-grid">
+            <div class="service-card reveal">
+                <div class="service-number">01</div>
+                <h3 class="service-name">Architectural Design</h3>
+                <p class="service-desc">Bespoke architectural concepts for residential, commercial, and cultural
+                    projects — shaped by context, driven by purpose.</p>
+            </div>
+            <div class="service-card reveal reveal-delay-1">
+                <div class="service-number">02</div>
+                <h3 class="service-name">Interior Architecture</h3>
+                <p class="service-desc">Spatial compositions that balance aesthetic harmony with lived functionality,
+                    from concept through to material selection.</p>
+            </div>
+            <div class="service-card reveal reveal-delay-2">
+                <div class="service-number">03</div>
+                <h3 class="service-name">Urban Planning</h3>
+                <p class="service-desc">Master planning and urban design solutions that weave buildings into the fabric
+                    of cities with elegance and foresight.</p>
+            </div>
+            <div class="service-card reveal">
+                <div class="service-number">04</div>
+                <h3 class="service-name">Restoration &amp; Heritage</h3>
+                <p class="service-desc">Sensitive restoration of historic structures, preserving legacy while
+                    integrating the best of contemporary living.</p>
+            </div>
+            <div class="service-card reveal reveal-delay-1">
+                <div class="service-number">05</div>
+                <h3 class="service-name">3D Visualisation</h3>
+                <p class="service-desc">Photorealistic renders and immersive walkthroughs that breathe life into designs
+                    before a single stone is laid.</p>
+            </div>
+            <div class="service-card reveal reveal-delay-2">
+                <div class="service-number">06</div>
+                <h3 class="service-name">Project Management</h3>
+                <p class="service-desc">End-to-end project oversight, ensuring timelines, budgets, and quality standards
+                    are upheld without compromise.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- PORTFOLIO -->
+    <section id="portfolio">
+        <div class="portfolio-header">
+            <div>
+                <p class="section-label reveal">Our Portfolio</p>
+                <h2 class="section-title reveal">Selected <em>Works</em></h2>
+            </div>
+            <a href="#contact" class="btn-primary reveal">Start a Project</a>
+        </div>
+        <div class="portfolio-grid">
+            <div class="proj reveal">
+                <img src="https://images.unsplash.com/photo-1545324418-cc1a3fa10c00?w=900&q=80"
+                    alt="The Meridian Tower" />
+                <div class="proj-overlay">
+                    <p class="proj-cat">Commercial · 2024</p>
+                    <h3 class="proj-name">The Meridian Tower</h3>
+                </div>
+            </div>
+            <div class="proj reveal reveal-delay-1">
+                <img src="https://images.unsplash.com/photo-1613977257363-707ba9348227?w=700&q=80" alt="Casa Lumière" />
+                <div class="proj-overlay">
+                    <p class="proj-cat">Residential · 2024</p>
+                    <h3 class="proj-name">Casa Lumière</h3>
+                </div>
+            </div>
+            <div class="proj reveal">
+                <img src="https://images.unsplash.com/photo-1600566753086-00f18fb6b3ea?w=600&q=80"
+                    alt="The Velour Gallery" />
+                <div class="proj-overlay">
+                    <p class="proj-cat">Cultural · 2023</p>
+                    <h3 class="proj-name">The Velour Gallery</h3>
+                </div>
+            </div>
+            <div class="proj reveal reveal-delay-1">
+                <img src="https://images.unsplash.com/photo-1618221469555-7f3ad97540d6?w=600&q=80"
+                    alt="Atrium Office Park" />
+                <div class="proj-overlay">
+                    <p class="proj-cat">Commercial · 2023</p>
+                    <h3 class="proj-name">Atrium Office Park</h3>
+                </div>
+            </div>
+            <div class="proj reveal reveal-delay-2">
+                <img src="https://images.unsplash.com/photo-1556909114-f6e7ad7d3136?w=600&q=80"
+                    alt="The Bronze Residence" />
+                <div class="proj-overlay">
+                    <p class="proj-cat">Residential · 2022</p>
+                    <h3 class="proj-name">The Bronze Residence</h3>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- TEAM -->
+    <section id="team">
+        <p class="section-label reveal">Our People</p>
+        <h2 class="section-title reveal">The Minds Behind<br>the <em>Masterpieces</em></h2>
+        <div class="team-grid">
+            <div class="team-card reveal">
+                <div class="team-img-wrap">
+                    <img src="images/IMG-5.jpg" />
+                </div>
+                <h3 class="team-name">Duru Darlington</h3>
+                <p class="team-role">Founder &amp; Principal Architect</p>
+            </div>
+            <div class="team-card reveal reveal-delay-1">
+                <div class="team-img-wrap">
+                    <img src="images/IMG-4.jpg" />
+                </div>
+                <h3 class="team-name">Isabelle Renard</h3>
+                <p class="team-role">Head of Interior Design</p>
+            </div>
+            <div class="team-card reveal reveal-delay-2">
+                <div class="team-img-wrap">
+                    <img src="images/IMG-9.jpg" />
+                </div>
+                <h3 class="team-name">Marcus Chen</h3>
+                <p class="team-role">Senior Urban Planner</p>
+            </div>
+            <div class="team-card reveal reveal-delay-3">
+                <div class="team-img-wrap">
+                    <img src="images/IMG-8.jpg" />
+                </div>
+                <h3 class="team-name">Amara Osei</h3>
+                <p class="team-role">Lead Project Manager</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- TESTIMONIALS -->
+    <section id="testimonials">
+        <p class="section-label reveal">Testimonials</p>
+        <h2 class="section-title reveal">What Our <em>Clients</em><br>Have to Say</h2>
+        <div class="testimonials-track">
+            <div class="testi-card reveal">
+                <div class="testi-stars">
+                    <span>★</span><span>★</span><span>★</span><span>★</span><span>★</span>
+                </div>
+                <p class="testi-quote">"Working with Archétype was a transformative experience. They didn't just design
+                    our headquarters — they gave it a soul."</p>
+                <div class="testi-author">
+                    <img class="testi-avatar"
+                        src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=100&q=80"
+                        alt="James Whitfield" />
+                    <div class="testi-info">
+                        <strong>James Whitfield</strong>
+                        <span>CEO, Whitfield Group</span>
+                    </div>
+                </div>
+            </div>
+            <div class="testi-card reveal reveal-delay-1">
+                <div class="testi-stars">
+                    <span>★</span><span>★</span><span>★</span><span>★</span><span>★</span>
+                </div>
+                <p class="testi-quote">"Every detail of our home was handled with extraordinary care. The team's vision
+                    matched — and surpassed — our wildest expectations."</p>
+                <div class="testi-author">
+                    <img class="testi-avatar"
+                        src="https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=100&q=80"
+                        alt="Claire Dupont" />
+                    <div class="testi-info">
+                        <strong>Claire Dupont</strong>
+                        <span>Private Client, Paris</span>
+                    </div>
+                </div>
+            </div>
+            <div class="testi-card reveal reveal-delay-2">
+                <div class="testi-stars">
+                    <span>★</span><span>★</span><span>★</span><span>★</span><span>★</span>
+                </div>
+                <p class="testi-quote">"Their restoration of our 19th-century villa was nothing short of miraculous.
+                    History preserved, comfort reimagined."</p>
+                <div class="testi-author">
+                    <img class="testi-avatar"
+                        src="https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=100&q=80"
+                        alt="Lorenzo Bianchi" />
+                    <div class="testi-info">
+                        <strong>Lorenzo Bianchi</strong>
+                        <span>Heritage Foundation, Milan</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section id="contact">
+        <div class="contact-grid">
+            <div class="contact-info reveal">
+                <p class="section-label">Contact Us</p>
+                <h2 class="section-title">Let's Create<br>Something <em>Remarkable</em></h2>
+                <div class="divider"></div>
+                <p>Whether you have a fully formed vision or just the seed of an idea, we would love to hear from you.
+                    Every great space begins with a conversation.</p>
+                <div class="contact-details">
+                    <div class="contact-item">
+                        <div class="contact-icon">&#9993;</div>
+                        <div class="contact-item-text">
+                            <strong>Email</strong>
+                            <span>durudarlinton95@gmail.com.design</span>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon">&#9742;</div>
+                        <div class="contact-item-text">
+                            <strong>Phone</strong>
+                            <span>+234 (810) 234 – 9907</span>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon">&#9673;</div>
+                        <div class="contact-item-text">
+                            <strong>Studio</strong>
+                            <span>14 Alex Avenue, Owerri, Imo Stsate, Nigeria.</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="contact-form-wrap reveal reveal-delay-2">
+                <div class="contact-form">
+                    <form action="mailto:durudarlington95@mail.com" method="post" enctype="text/plain">
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="fname">First Name</label>
+                                <input type="text" id="fname" placeholder="John" />
+                            </div>
+                            <div class="form-group">
+                                <label for="lname">Last Name</label>
+                                <input type="text" id="lname" placeholder="Doe" />
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email Address</label>
+                            <input type="email" id="email" placeholder="john@example.com" />
+                        </div>
+                        <div class="form-group">
+                            <label for="service">Service Interest</label>
+                            <select id="service">
+                                <option value="">Select a service…</option>
+                                <option>Architectural Design</option>
+                                <option>Interior Architecture</option>
+                                <option>Urban Planning</option>
+                                <option>Restoration &amp; Heritage</option>
+                                <option>3D Visualisation</option>
+                                <option>Project Management</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Your Message</label>
+                            <textarea id="message" placeholder="Tell us about your project…"></textarea>
+                        </div>
+                        <button class="btn-submit" onclick="handleSubmit()">Send Message</button>
+                        <p id="form-success"
+                            style="display:none;font-size:0.8rem;color:var(--bronze);margin-top:0.5rem;letter-spacing:0.1em;">
+                            ✓ Thank you — we'll be in touch shortly.
+                        </p>
+                    </form>
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer>
+        <div class="footer-top">
+            <div class="footer-brand">
+                <a href="#" class="nav-logo" style="color:var(--cream)">Wall Doctor<span>Design</span></a>
+                <p>Shaping spaces that endure. Architecture &amp; design studio since 2020.</p>
+            </div>
+            <div class="footer-links">
+                <h4>Navigation</h4>
+                <ul>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#team">Team</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+            <div class="footer-links">
+                <h4>Services</h4>
+                <ul>
+                    <li><a href="#services">Architectural Design</a></li>
+                    <li><a href="#services">Interior Architecture</a></li>
+                    <li><a href="#services">Urban Planning</a></li>
+                    <li><a href="#services">Heritage Restoration</a></li>
+                </ul>
+            </div>
+            <div class="footer-links">
+                <h4>Legal</h4>
+                <ul>
+                    <li><a href="#">Privacy Policy</a></li>
+                    <li><a href="#">Terms of Use</a></li>
+                    <li><a href="#">Cookie Settings</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2026 Wall Doctor Design. All rights reserved.</p>
+            <div class="footer-socials">
+                <a href="#" title="Instagram">&#9670;</a>
+                <a href="#" title="LinkedIn">in</a>
+                <a href="#" title="Behance">Be</a>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        // NAV SCROLL
+        const navbar = document.getElementById('navbar');
+        window.addEventListener('scroll', () => {
+            navbar.classList.toggle('scrolled', window.scrollY > 60);
+        });
+
+        // REVEAL ON SCROLL
+        const reveals = document.querySelectorAll('.reveal');
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach(e => {
+                if (e.isIntersecting) {
+                    e.target.classList.add('visible');
+                    observer.unobserve(e.target);
+                }
+            });
+        }, { threshold: 0.12 });
+        reveals.forEach(el => observer.observe(el));
+
+        // FORM
+        function handleSubmit() {
+            const fname = document.getElementById('fname').value.trim();
+            const email = document.getElementById('email').value.trim();
+            if (!fname || !email) { alert('Please fill in your name and email.'); return; }
+            document.getElementById('form-success').style.display = 'block';
+            ['fname', 'lname', 'email', 'message'].forEach(id => document.getElementById(id).value = '');
+            document.getElementById('service').selectedIndex = 0;
+        }
+
+        // HAMBURGER (mobile)
+        document.getElementById('hamburger').addEventListener('click', () => {
+            const links = document.querySelector('.nav-links');
+            if (links) {
+                links.style.display = links.style.display === 'flex' ? 'none' : 'flex';
+                links.style.flexDirection = 'column';
+                links.style.position = 'absolute';
+                links.style.top = '70px';
+                links.style.left = '0';
+                links.style.width = '100%';
+                links.style.background = 'var(--cream)';
+                links.style.padding = '1.5rem 5%';
+                links.style.gap = '1.4rem';
+                links.style.borderBottom = '1px solid rgba(160,113,79,0.2)';
+            }
+        });
+    </script>
+</body>
+
+</html>
